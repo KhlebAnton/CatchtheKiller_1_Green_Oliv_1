@@ -99,6 +99,15 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
+    padding: 0;
+}
+.header .container a {
+    flex-shrink: 0;
+}
+.header .container span {
+    flex-shrink: 1;
+    text-align: center;
 }
 .main {
     padding: 20px;
